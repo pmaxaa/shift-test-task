@@ -1,0 +1,20 @@
+:root {
+  //fonts
+  --font-family: 'Inter', sans-serif;
+
+  --button-font-size: 16px;
+  --button-font-line: 24px;
+  --button-font: 600 var(--button-font-size) / var(--button-font-line)
+    var(--font-family);
+
+  //colors
+  --primary-color: #1975ff;
+  --primary-hover-color: #0052cc;
+  --primary-disabled-color: #cce0ff;
+
+  --text-primary-color: #141c24;
+  --text-secondary-color: #344051;
+  --text-tertiary-color: #637083;
+  --text-quartenery-color: #97a1af;
+  --text-invert-color: #ffffff;
+}
