@@ -1,5 +1,10 @@
-import { Button } from '@/shared/ui/Button';
+import cls from './AuthPage.module.scss';
+import { AuthForm } from '@/features/authorization/ui/AuthForm/AuthForm';
 
 export function AuthPage() {
-  return <Button>кнопка</Button>;
+  return (
+    <div className={cls.authPage}>
+      <AuthForm className={cls.authForm} />
+    </div>
+  );
 }
