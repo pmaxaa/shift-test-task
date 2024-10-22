@@ -1,11 +1,14 @@
-import { AuthPage } from '../pages/auth'
+import { QueryClient, QueryClientProvider } from 'react-query';
+import { AuthPage } from '../pages/auth';
+
+const queryClient = new QueryClient();
 
 function App() {
   return (
-    <>
-      <AuthPage/>
-    </>
-  )
+    <QueryClientProvider client={queryClient}>
+      <AuthPage />
+    </QueryClientProvider>
+  );
 }
 
-export default App
+export default App;
