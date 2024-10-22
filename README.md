@@ -6,10 +6,10 @@
 
 ## Технологии
 
-- React, TypeScript + Vite
-- Для взаимодействия с формой используется react-hook-form
-- Для запросов используется axios
-- Для взаимодействия с REST API используется react-query
+- React + TypeScript + Vite
+- react-hook-form для взаимодействия с формой
+- axios для запросов на сервер
+- react-query для взаимодействия с REST API
 
 ## Ресурсы
 
